@@ -121,20 +121,20 @@ We will now add a data connection defined by the admin of our project to later q
 <img src = readme_images/330D2806-3188-43CB-932D-6993105470C0.jpeg >
 </p>
 
-Select the 'domino-winequality-workshop' s3 bucket connection and click add to project
+Search for wine and select Richard Ecker's Wine Quality
 
 <!-- ![image](readme_images/AddS3.png) -->
 
 <p align="center">
-<img src = readme_images/AddS3.png width="800">
+<img src = readme_images/38A4DF1E-6A04-459F-848B-15FAE83CB513.jpeg width="800">
 </p>
 
-The data source should look like the image below
+The dataset should look like the image below
 
 <!-- ![image](readme_images/S3done.png) -->
 
 <p align="center">
-<img src = readme_images/S3done.png width="800">
+<img src = readme_images/71EC26B1-FE5C-4A44-8502-AB641A0A8318.jpeg width="800">
 </p>
 
 This concludes all labs in section 1 - Prepare Project and Data! 
