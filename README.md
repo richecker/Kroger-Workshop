@@ -111,15 +111,14 @@ For the goal title type in 'Explore Data' and click save. Once the goal is saved
 
 ### Lab 1.3 - Add Data Source
 
-We will now add a data connection defined by the admin of our project to later query in data. To do so - navigate to the Data tab of your projects. If you're taken to the Domino Datasets view, please click on the Data Sources view instead and click on 'Add a Data Source'
+We will now add a data connection defined by the admin of our project to later query in data. To do so - navigate to the Data tab of your projects. If you're taken to the Domino Data Sources view, please click on the Data Sets view instead and click on 'Mount Shared Dataset'
 
-Select the 'domino-winequality-workshop' s3 bucket connection and click add to project
 
 <!-- ![image](readme_images/AddDataSource.png) -->
 
 <p align="center">
 
-<img src = readme_images/AddDataSource.png width="800">
+<img src = readme_images/330D2806-3188-43CB-932D-6993105470C0.jpeg >
 </p>
 
 Select the 'domino-winequality-workshop' s3 bucket connection and click add to project
