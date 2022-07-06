@@ -203,29 +203,12 @@ Once the workspace is launched, create a new python notebook by clicking here:
 <img src = readme_images/NewNotebook.png width="800">
 </p>
 
-Once your notebook is loaded, click on the left blue menu and click on the Data page, then onto the data source we added in lab 1 as displayed below
-
-<p align="center">
-<img src = readme_images/DataTab.png width="800">
-</p>
-
-Copy the provided code snippet into your notebook and run the cell
-
-<p align="center">
-<img src = readme_images/S3CodeSnippet.png width="800">
-</p>
-
-After running the code snippet. Copy the code below into the following cell 
+Copy the below script into the top cell and click on the run button
 
 ```python
-from io import StringIO
 import pandas as pd
-
-s=str(object_store.get("WineQualityData.csv"),'utf-8')
-data = StringIO(s) 
-
-df=pd.read_csv(data)
-df.head()
+df= pd.read_csv('/domino/datasets/WineQuality/WineQualityData.csv')
+print(df)
 ```
 
 Now cell by cell, copy the code snippets below and run the cells to visualize and prepare the data! (You can click on the '+' icon to add a blank cell after the current cell)
